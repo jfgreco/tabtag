@@ -16,7 +16,7 @@ per project with `/tabtag`.
 
 ```
 /plugin marketplace add jfgreco/tabtag
-/plugin install tabtag@greco-plugins
+/plugin install tabtag@jfgreco-plugins
 ```
 
 Requires a recent Claude Code (2026+) — the plugin relies on the

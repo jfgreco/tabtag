@@ -726,7 +726,7 @@ Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"
 
 **Interfaces:**
 - Consumes: the executable contracts of `scripts/set-title.js` (Task 3) and `scripts/set-alias.js` (Task 4).
-- Produces: an installable plugin named `tabtag` in marketplace `greco-plugins`; a user-facing `/tabtag` command. Task 6 installs exactly this.
+- Produces: an installable plugin named `tabtag` in marketplace `jfgreco-plugins`; a user-facing `/tabtag` command. Task 6 installs exactly this.
 
 - [ ] **Step 1: Create `.claude-plugin/plugin.json`**
 
@@ -745,7 +745,7 @@ Co-Authored-By: Claude Fable 5 <noreply@anthropic.com>"
 
 ```json
 {
-  "name": "greco-plugins",
+  "name": "jfgreco-plugins",
   "owner": {
     "name": "John Greco"
   },
@@ -920,7 +920,7 @@ per project with `/tabtag`.
 
 ```
 /plugin marketplace add jfgreco/tabtag
-/plugin install tabtag@greco-plugins
+/plugin install tabtag@jfgreco-plugins
 ```
 
 Requires a recent Claude Code (2026+) — the plugin relies on the
@@ -970,7 +970,7 @@ In a Claude Code session (this one or a new one):
 
 ```
 /plugin marketplace add C:\Users\greco\source\repos\Claude.TabNamePlugin
-/plugin install tabtag@greco-plugins
+/plugin install tabtag@jfgreco-plugins
 ```
 
 Then start a NEW Claude Code session in a different project directory (hooks register at session start).
