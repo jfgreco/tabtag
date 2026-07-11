@@ -1,0 +1,29 @@
+{
+  "name": "tabtag",
+  "version": "0.1.0",
+  "description": "Project-first terminal tab titles for Claude Code — every tab leads with a short per-project name plus live status.",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "terminal",
+    "tab-title",
+    "cli",
+    "developer-tools"
+  ],
+  "homepage": "https://github.com/jfgreco/tabtag#readme",
+  "bugs": "https://github.com/jfgreco/tabtag/issues",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfgreco/tabtag.git"
+  },
+  "license": "MIT",
+  "author": "John Greco",
+  "type": "commonjs",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

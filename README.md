@@ -1,5 +1,7 @@
 # tabtag — project-first terminal tab titles for Claude Code
 
+[![CI](https://github.com/jfgreco/tabtag/actions/workflows/ci.yml/badge.svg)](https://github.com/jfgreco/tabtag/actions/workflows/ci.yml)
+
 Tabs get confusing when several Claude Code sessions are open. This plugin
 makes every tab lead with a short per-project name, followed by live status:
 
@@ -35,10 +37,11 @@ Names are stored in `~/.claude/tabtags.json` (plain JSON, hand-editable).
 
 ## Development
 
-Run the test suite from the repo root:
+Run the test suite from the repo root (the plugin has no dependencies, so
+there is nothing to install):
 
 ```
-node --test
+node --test      # or: npm test
 ```
 
 ## How it works
@@ -59,3 +62,7 @@ tool call — to stay the last writer.
 - **tmux**: needs `set -g set-titles on`.
 - **VS Code integrated terminal**: include `${sequence}` in the
   `terminal.integrated.tabs.title` setting.
+
+## License
+
+[MIT](LICENSE) © John Greco
