@@ -18,4 +18,13 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   `terminalSequence` hook output, re-asserting on every event.
 - Dependency-free implementation with a fully unit-tested title engine.
 
+### Known issues
+
+- **The title does not hold once a session goes idle.** Claude Code re-asserts
+  its own auto-generated title after a turn settles, overwriting the plugin's
+  title ("blips, then reverts"). There is no hook after that write and no
+  setting to disable it. `claude --name "<name>"` is the reliable workaround
+  (fixed name, no live status). See the README's *Known limitation* section and
+  upstream issues anthropics/claude-code#17951, #76092, and #67386.
+
 [0.1.0]: https://github.com/jfgreco/tabtag/releases/tag/v0.1.0
