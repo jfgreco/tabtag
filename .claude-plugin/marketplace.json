@@ -1,0 +1,13 @@
+{
+  "name": "greco-plugins",
+  "description": "John Greco's Claude Code plugins",
+  "owner": {
+    "name": "John Greco"
+  },
+  "plugins": [
+    {
+      "name": "tabtag",
+      "source": "."
+    }
+  ]
+}

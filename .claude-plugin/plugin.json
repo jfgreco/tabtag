@@ -1,0 +1,8 @@
+{
+  "name": "tabtag",
+  "description": "Terminal tab titles that lead with a per-project short name plus live status — 'myapp ● fixing tests' while working, 'myapp ✓' when done, 'myapp ⚠' when input is needed. Set names with /tabtag.",
+  "version": "0.1.0",
+  "author": {
+    "name": "John Greco"
+  }
+}
